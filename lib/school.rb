@@ -5,7 +5,7 @@ class School
     @start_time = start_time
     @hours_in_school_day = hours_in_school_day
     @student_names = []
-    @end_time
+    @end_time = []
   end
 
   # def student_names
@@ -17,6 +17,6 @@ class School
   end
 
   def end_time(start_time, hours_in_school_day)
-    @end_time == start_time + hours_in_school_day
+    @end_time = start_time() + hours_in_school_day()
   end
 end
